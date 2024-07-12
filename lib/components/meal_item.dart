@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../models/meal.dart';
 import '../utils/app_routes.dart';
 
@@ -12,7 +11,13 @@ class MealItem extends StatelessWidget {
     Navigator.of(context).pushNamed(
       AppRoutes.MEALS_DETAIL,
       arguments: meal,
-    );
+    ).then((result) {
+      if(result == null) {
+          print('Sem resultado!');
+      } else {
+          print('O nome da refeição é $result.');
+      }
+    });
   }
 
   @override

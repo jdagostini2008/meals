@@ -11,12 +11,12 @@ const dummyCategories = [
   Category(
     id: 'c2',
     title: 'Rápido & Fácil',
-    color: Colors.red,
+    color: Colors.lightGreen,
   ),
   Category(
     id: 'c3',
     title: 'Hamburgers',
-    color: Colors.orange,
+    color: Colors.cyanAccent,
   ),
   Category(
     id: 'c4',
@@ -46,7 +46,7 @@ const dummyCategories = [
   Category(
     id: 'c9',
     title: 'Francesa',
-    color: Colors.pink,
+    color: Colors.deepPurple,
   ),
   Category(
     id: 'c10',
@@ -378,4 +378,3 @@ const dummyMeals = [
     isLactoseFree: true,
   ),
 ];
-
